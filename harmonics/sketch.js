@@ -12,7 +12,7 @@ function setup() {
       	var textboxvalue = document.getElementById("textbox").value;
       	harmonics[harmonics.length] = parseInt(textboxvalue);
       	let showstring = harmonics.map(String);	
-      	document.getElementById("textfield").innerHTML = showstring;
+      	document.getElementById("textfield").value = showstring;
       	document.getElementById("textbox").value = null;
       
       	console.log(harmonics);
