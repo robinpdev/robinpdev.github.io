@@ -15,7 +15,7 @@ let trainingbutton;
 
 function whentraining(loss){
 	if(loss != null){
-		console.log(loss);
+		label = loss.toString();
 	}
 	else{
 		console.log("training complete!")
