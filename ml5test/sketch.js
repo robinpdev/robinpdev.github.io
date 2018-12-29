@@ -6,9 +6,9 @@ let label = "loading net...";
 
 let imagepath = 'images/alia.jpg';
 
-let abutton;
-let bbutton;
-let cbutton;
+let imagebutton;
+
+let slider;
 
 let trainingbutton;
 
@@ -53,27 +53,23 @@ function gotresults(error, result){
 function setup(){
 
 	createCanvas(640, 480);
-	//mimage = createCapture(VIDEO);
+
 	netimage = createCapture(VIDEO);
 	netimage.hide();
 	background(0);
+
 	mobilenet = ml5.featureExtractor('MobileNet', modelready);
 	classifier = mobilenet.classification(netimage, imageready);
 
-	abutton = createButton('class a');
-	abutton.mousePressed(function(){
-		classifier.addImage('class a');
-	});
 
-	bbutton = createButton('class b');
-	bbutton.mousePressed(function(){
-		classifier.addImage('class b');
-	});
 
-	cbutton = createButton('class c');
-	cbutton.mousePressed(function(){
-		classifier.addImage('class c');
-	});
+	slider = createSlider(0, 1, 0.5, 0.01);
+
+	imagebutton = createButton('add image to net');
+	imagebutton.mousePressed(function(){
+		console.log(slider.value());
+		classifier.addImage(slider.value());
+	})
 
 	trainingbutton = createButton('commence training');
 	trainingbutton.mousePressed(function(){
@@ -83,6 +79,7 @@ function setup(){
 }
 
 function draw(){
+
 	background(50);
 	image(netimage, 0, 0, width, height);
 	//netimage.hide();
