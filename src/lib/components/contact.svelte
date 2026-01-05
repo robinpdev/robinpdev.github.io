@@ -45,7 +45,7 @@
 		{
 			icon: MapPinIcon,
 			label: "Location",
-			value: "Ledgem, Belgium",
+			value: "Ledegem, Belgium",
 			href: "#",
 		},
 	];
