@@ -21,10 +21,10 @@
 	<Header />
 	<Hero />
 	<About />
-	<Skills />
+	<!-- <Skills />
 	<Projects />
 	<Experience />
-	<Education />
+	<Education /> -->
 	<Contact />
 	<Footer />
 </div>

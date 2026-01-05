@@ -56,7 +56,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 </script>
 
 <main>
-    <canvas id="myCanvas"></canvas>
+    <canvas width="700px" height="400px" id="myCanvas"></canvas>
 </main>
 
 <style>

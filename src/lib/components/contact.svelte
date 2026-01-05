@@ -33,19 +33,19 @@
 		{
 			icon: MailIcon,
 			label: "Email",
-			value: "alex@example.com",
-			href: "mailto:alex@example.com",
+			value: "robin.paret@ugent.be",
+			href: "mailto:robin.paret@ugent.be",
 		},
-		{
-			icon: PhoneIcon,
-			label: "Phone",
-			value: "+1 (555) 123-4567",
-			href: "tel:+15551234567",
-		},
+		// {
+		// 	icon: PhoneIcon,
+		// 	label: "Phone",
+		// 	value: "+1 (555) 123-4567",
+		// 	href: "tel:+15551234567",
+		// },
 		{
 			icon: MapPinIcon,
 			label: "Location",
-			value: "San Francisco, CA",
+			value: "Ledgem, Belgium",
 			href: "#",
 		},
 	];
@@ -59,7 +59,7 @@
 				<div class="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full"></div>
 			</div>
 
-			<div class="grid md:grid-cols-3 gap-6 mb-12">
+			<div class="grid md:grid-cols-2 gap-6 mb-12">
 				{#each contactInfo as info}
 					<a href={info.href} class="group">
 						<Card class="h-full hover:shadow-lg-lg hover:scale-[1.02] transition-all duration-300">
@@ -79,7 +79,7 @@
 				{/each}
 			</div>
 
-			<Card class="bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
+			<!-- <Card class="bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
 				<CardHeader>
 					<CardTitle>Send me a message</CardTitle>
 					<CardDescription>I'll respond as soon as possible</CardDescription>
@@ -101,7 +101,7 @@
 						</Button>
 					</form>
 				</CardContent>
-			</Card>
+			</Card> -->
 		</div>
 	</div>
 </section>

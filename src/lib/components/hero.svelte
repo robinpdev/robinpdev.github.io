@@ -15,27 +15,27 @@
 		<div class="text-center space-y-8">
 			<div class="flex flex-col gap-4">
 				<h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
-					<span class="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">Computer Science Engineer</span>
+					<span class="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">Allround<br>Computer Science Maker</span>
 				</h1>
-				<p class="text-xl sm:text-2xl text-foreground/70 max-w-2xl mx-auto">Passionate about building elegant solutions to complex problems. Graduating 2024 with expertise in full-stack development and cloud architecture.</p>
+				<p class="text-xl sm:text-2xl text-white/100 dark:text-white max-w-2xl mx-auto">I'm a computer science engineering student @UGent graduating summer 2026 with expertise in full-stack and embedded development.</p>
 			</div>
 
 			<div class="flex flex-col sm:flex-row gap-4 justify-center">
-				<Button size="lg" class="gap-2">
+				<!-- <Button size="lg" class="gap-2">
 					View My Work
 					<ArrowRightIcon class="size-4" />
-				</Button>
-				<Button size="lg" variant="outline">Download Resume</Button>
+				</Button> -->
+				<Button size="lg" variant="outline" href="/robin_paret_CV_2026_website.pdf" download="robin_paret_CV_2026_website.pdf">Download Resume</Button>
 			</div>
 
 			<div class="flex gap-4 justify-center pt-4">
-				<a href="#" class="p-3 rounded-lg bg-card hover:bg-primary/10 transition-colors">
+				<a href="https://github.com/robinpdev" target="_blank" class="p-3 rounded-lg bg-card hover:bg-primary/50 transition-colors">
 					<GithubIcon class="size-5" />
 				</a>
-				<a href="#" class="p-3 rounded-lg bg-card hover:bg-primary/10 transition-colors">
+				<a href="https://www.linkedin.com/in/robin-paret-287b041b4/" target="_blank" class="p-3 rounded-lg bg-card hover:bg-primary/50 transition-colors">
 					<LinkedinIcon class="size-5" />
 				</a>
-				<a href="#" class="p-3 rounded-lg bg-card hover:bg-primary/10 transition-colors">
+				<a href="mailto:robin.paret@ugent.be" target="_blank" class="p-3 rounded-lg bg-card hover:bg-primary/50 transition-colors">
 					<MailIcon class="size-5" />
 				</a>
 			</div>
