@@ -6,7 +6,7 @@
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex flex-col md:flex-row items-center justify-between gap-8">
 			<div class="text-center md:text-left">
-				<p class="text-foreground/70">© 2025 Robin Paret. All rights reserved.</p>
+				<p class="text-foreground/70">© 2026 Robin Paret. All rights reserved.</p>
 				<p class="text-sm text-foreground/50">Graduating Computer Science Engineer</p>
 			</div>
 

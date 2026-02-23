@@ -5,7 +5,7 @@
 </script>
 
 <section class="relative overflow-hidden bg-gradient-to-br from-background via-primary/5 to-accent/5 py-20 sm:py-32">
-	<div class="absolute inset-0 overflow-hidden">
+	<div class="absolute inset-0 overflow-hidden" style="background: black;">
 		<div class="absolute -top-40 -right-40 size-80 rounded-full bg-primary/10 blur-3xl"></div>
 		<div class="absolute -bottom-40 -left-40 size-80 rounded-full bg-accent/10 blur-3xl"></div>
 		<Herobg />

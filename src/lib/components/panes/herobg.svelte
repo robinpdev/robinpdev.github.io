@@ -35,11 +35,11 @@ float vDrop(vec2 uv,float t)
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
 {
     vec2 p = (fragCoord.xy - 0.5 * iResolution.xy) / iResolution.y;
-    float d = length(p)+exp(-iTime)*0.9+0.1;
+    float d = length(p)+exp(-iTime)*0.7+0.1;
 	p = vec2(atan(p.x, p.y) / PI, 2.5 / d);
     if (iMouse.z>0.5)
     	p.y *= 0.5;
-    float t =  iTime*0.4;
+    float t =  iTime*0.05;
     vec3 col = vec3(1.55,0.65,.225) * vDrop(p,t);	// red
     col += vec3(0.55,0.75,1.225) * vDrop(p,t+0.33);	// blue
     col += vec3(0.45,1.15,0.425) * vDrop(p,t+0.66);	// green
