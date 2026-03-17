@@ -21,8 +21,8 @@
 	<Header />
 	<Hero />
 	<About />
-	<!-- <Skills />
 	<Projects />
+	<!-- <Skills />
 	<Experience />
 	<Education /> -->
 	<Contact />
