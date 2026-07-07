@@ -1,0 +1,167 @@
+
+<!-- saved from url=(0073)https://gnrcounter.com/counter.php?accId=6b733d8209e314194b63e9bee5d6f2ed -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>const dx = new Date() // today, now
+	newdate = dx.toISOString().slice(0, 10); // YYYY-MM-DD
+
+	var sesid = Math.random().toString(36).substr(2, 9)+'X'+Math.random().toString(36).substr(2, 9);
+	var sesidDate = "2026-07-06";
+	
+
+
+	var parts = location.hostname;
+	var sndleveldomain = parts.replace("http://", "");	
+	var sndleveldomain = sndleveldomain.replace("https://", "");	
+	var sndleveldomain = sndleveldomain.replace("www.", "");
+
+
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain="+ sndleveldomain +";path=/";
+  }
+
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = document.cookie;
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i &lt; ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+
+	var accSesId="";
+	var myCookie = getCookie('gnrcounter_6398_6398');
+	var newgnrCounter2 = getCookie('gnrcounter2_6398_6398');	
+
+	if (myCookie == "") {
+		//alert("cookie does not exist");
+		setCookie('gnrcounter_6398_6398', sesid, 7);
+		setCookie('gnrcounter2_6398_6398', sesidDate, 7);
+		
+		accSesId="0*"+sesidDate+"*"+sesid;
+	} else {
+		// alert("cookie exists");
+		accSesId="1*"+newgnrCounter2+"*"+myCookie;	
+		setCookie('gnrcounter2_6398_6398', sesidDate, 7);		
+		
+	}
+	// alert(accSesId);
+	
+	var userLang = navigator.language || navigator.userLanguage; 
+	var hostname = window.location.hostname;
+	var refurl = document.referrer;	
+	var platform = navigator.platform;	
+	var title = document.title;
+	var url = document.URL;
+	var screen =screen.width + "x" + screen.height ; 
+	
+	document.write('<script src="./counter_files/counterClient.php" type="text/javascript"></script>');  
+    
+
+ 
+ 	document.write('<style>.gnrCounterx {padding:3px !important; font-family: Verdana, Arial, Helvetica, sans-serif !important;  justify-content: center !important;width: 140px !important;height: auto !important;align-items: center !important;text-align: center !important;font-size: 11px !important; margin-left: auto !important;margin-right: auto !important;background: #E8FFB7 !important; color: #243400 !important;border: 1px solid gray !important;border-radius: 7px !important;margin: 2px auto !important;}.gnrCounter-boldx {font-weight: bold !important;font-size: 12px !important; line-height:13px !important;}</style>');
+	document.write('<a href="https://gnrcounter.com/" title="free website hit counters" target="_blank" style="text-decoration: none !important; !important; color:#243400 !important; "></a><div class="gnrCounterx" style="line-height:13px !important;"><a href="https://gnrcounter.com/" title="free website hit counters" target="_blank" style="text-decoration: none !important; !important; color:#243400 !important; "><div>Now, <span class="gnrCounter-boldx">1</span> Online Users</div><div>Visitors Today</div><div><span class="gnrCounter-boldx">1</span></div><div>Page Views Today</div><div><span class="gnrCounter-boldx">3</span></div><div>Total Visitors</div><div><span class="gnrCounter-boldx">1</span></div></a><div><a href="https://gnrcounter.com/" title="free website hit counters" target="_blank" style="text-decoration: none !important; !important; color:#243400 !important; "></a><a href="https://gnrcounter.com/dashboard/?accId=6b733d8209e314194b63e9bee5d6f2ed" target="_blank" alt="Free Visitor Analytics" style="text-decoration: underline !important; color: #000000 !important;">View Stats</a></div></div>');
+	
+ 	
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.write('<a href="https://klimaservisi.srvs.me/" hreflang="tr" lang="tr" alt="klima servisi" style="font-size:0px; display: none;">klima servisi</a>'); 
+
+
+
+
+
+
+
+
+
+		
+
+		
+</body></html>

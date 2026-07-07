@@ -1,0 +1,1 @@
+import{R as t}from"../chunks/BUApaBEI.js";import"../chunks/DsnmJJEf.js";import"../chunks/69_IOA4Y.js";function r(o,e){throw new t(o,e.toString())}function n(){r(307,"/home")}const p=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));function l(o){}export{l as component,p as universal};
